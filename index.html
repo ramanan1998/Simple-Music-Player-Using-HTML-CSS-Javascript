@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>PlayMi</title>
+</head>
+<body>
+    <div class="app_name"><h1>PlayMi</h1></div>
+    <div class="music-container">
+        
+        <div class="image-container">
+            <img src="/images/Burn the house down.jpg" alt="venom_track" id="cover">
+        </div>
+        <div class="music-info">
+            <h4 id="title">Venom</h4>
+            <div class="progressbar"><div class="progress"></div></div>
+        </div>
+
+        <div class="controls">
+            <button class="action_buttons" id="previous"><i class="fas fa-backward"></i></button>
+            <button class="action_buttons action_button_big" id="play"><i class="fas fa-play" id="play"></i></button>
+            <button class="action_buttons" id="next"><i class="fas fa-forward"></i></button>
+        </div>
+
+        <audio src="/files/Burn the house down.mp3" id="aud1"></audio>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
